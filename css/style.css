@@ -64,8 +64,10 @@ main{
   font-weight: bolder !important;
 }
 #contact{
-  background: var(--lighter-blue);
-  min-height: 50vh;
+  background: url(../img/contact-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
 }
 footer{
   background: linear-gradient(to top, var(--pearl), var(--lighter-blue));
