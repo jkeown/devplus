@@ -25,7 +25,7 @@ main{
   flex: 1;
 }
 .nav-wrapper{
-  background: linear-gradient(to right, var(--pearl), var(--lighter-blue));
+  background: linear-gradient(to bottom, var(--pearl), var(--lighter-blue));
 }
 #logo{
   max-height: 100px;
@@ -35,12 +35,17 @@ main{
 .sidenav-trigger{
   color: var(--yellow);
 }
+#intro img{
+  width: 100%;
+}
 #intro h1{
   color: var(--purple);
-  margin-top: 0;
+  margin-top: 5px;
+  margin-left: 12px;
 }
 #intro span{
   color: var(--blue);
+  text-shadow: 1.5px 1.5px #000;
 }
 .border-top, .border-bottom{
   height: 20px;
@@ -53,14 +58,18 @@ main{
 .border-bottom{
   border-top: none;
 }
-#web-design-card{
-  background-image: url(../img/responsive-design.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+.card-title{
+  color: var(--purple);
+  padding-left: 10px;
+  font-weight: bolder !important;
 }
-
+#contact{
+  background: var(--lighter-blue);
+  min-height: 50vh;
+}
 footer{
-  background-color: var(--lighter-blue);
+  background: linear-gradient(to top, var(--pearl), var(--lighter-blue));
+  background-color: ;
   box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.14), 0 -3px 1px -2px rgba(0, 0, 0, 0.12), 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -71,7 +80,9 @@ footer{
   }
 }
 @media(min-width: 600px){
-  #intro h1{
+  #intro h1, img{
     text-align: center;
+    padding: 50px 0;
+    margin: 0;
   }
 }
