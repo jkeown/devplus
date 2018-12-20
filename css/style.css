@@ -34,7 +34,7 @@ main{
   padding: 10px;
 }
 .sidenav-trigger{
-  color: var(--yellow);
+  color: var(--orange);
 }
 #intro img{
   width: 100%;
@@ -65,10 +65,27 @@ main{
   font-weight: bolder !important;
 }
 #contact{
+  color: var(--pearl);
   background: url(../img/contact-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  padding-top: 25vh;
+}
+#contact button{
+  background: var(--orange);
+}
+#testimonial h3{
+  color: var(--purple);
+}
+#testimonial img{
+  width: 100%;
+}
+.testimony{
+  background: radial-gradient(var(--lighter-purple), transparent 60%);
+}
+blockquote{
+  border-color: var(--lighter-blue);
 }
 footer{
   background: linear-gradient(to top, var(--pearl), var(--lighter-blue));
