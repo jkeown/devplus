@@ -75,7 +75,7 @@ main{
   background: url(../img/contact-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10vh 0 2.5vh 0;
+  padding: 15vh 0 2.5vh 0;
 }
 .select-dropdown{
   color: #9e9e9e;
