@@ -121,6 +121,11 @@ footer{
 }
 
 /* Media queries */
+@media(max-height: 375px){
+  #contact{
+    padding-top: 25vh;;
+  }
+}
 @media(max-width: 600px){
   #web-design-card{
     background-position: center;
