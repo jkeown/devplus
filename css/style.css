@@ -116,7 +116,6 @@ blockquote{
 }
 footer{
   background: linear-gradient(to top, var(--pearl), var(--lighter-blue));
-  background-color: ;
   box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.14), 0 -3px 1px -2px rgba(0, 0, 0, 0.12), 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -129,15 +128,11 @@ footer{
 @media(min-width: 600px){
   #intro h1, img{
     text-align: center;
-    padding: 50px 0;
+    padding: 15vh 0;
     margin: 0;
   }
   #contact{
     padding: 20vh 0 2.5vh 0;
   }
 }
-@media(min-width: 800px){
-  #contact{
-    /* padding: 20vh 0 2.5vh 0; */
-  }
-}
+
