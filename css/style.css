@@ -70,7 +70,7 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  padding-top: 25vh;
+  padding-top: 10vh;
 }
 #contact button{
   background: var(--orange);
@@ -81,8 +81,11 @@ main{
 #testimonial img{
   width: 100%;
 }
+.mirror-effect{
+  transform: scale(-1, 1) !important;
+}
 .testimony{
-  background: radial-gradient(var(--lighter-purple), transparent 60%);
+  background: radial-gradient(var(--lighter-purple), transparent 30%);
 }
 blockquote{
   border-color: var(--lighter-blue);
@@ -104,5 +107,13 @@ footer{
     text-align: center;
     padding: 50px 0;
     margin: 0;
+  }
+  #contact{
+    padding-top: 15vh;
+  }
+}
+@media(min-width: 800px){
+  #contact{
+    padding-top: 20vh;
   }
 }
