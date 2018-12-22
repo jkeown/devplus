@@ -25,6 +25,9 @@ body{
 main{
   flex: 1;
 }
+.navbar-fixed{
+  z-index: 9999;
+}
 .nav-wrapper{
   background: linear-gradient(to bottom, var(--pearl), var(--lighter-blue));
 }
@@ -32,6 +35,9 @@ main{
   max-height: 100px;
   max-width: 100px;
   padding: 10px;
+}
+.sidenav{
+  z-index: 10000 !important;
 }
 .sidenav-trigger{
   color: var(--orange);
