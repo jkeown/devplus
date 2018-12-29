@@ -42,8 +42,8 @@ main{
 .sidenav-trigger{
   color: var(--orange);
 }
-#intro img{
-  width: 100%;
+h3{
+  color: var(--purple);
 }
 #intro h1{
   color: var(--purple);
@@ -65,10 +65,45 @@ main{
 .border-bottom{
   border-top: none;
 }
-.card-title{
+#services{
+  color: var(--pearl);
+  background: url(../img/services-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  padding-bottom: 5vh;
+}
+#services h5{
+  text-decoration: underline;
+  text-decoration-color: var(--purple);
+}
+#services p, ul{
+  padding-bottom: 20px;
+}
+#services ul{
+  text-align: center;
+}
+#services ul li:not(:last-child){
   color: var(--purple);
-  padding-left: 10px;
-  font-weight: bolder !important;
+  font-size: 7vw;
+}
+#services a{
+  background: var(--orange);
+  margin: 20px 0;
+}
+#about{
+  font-weight: 500;
+}
+.circle-shape {
+  float: left;
+  height: 200px;
+  width: 175px;
+  shape-outside: ellipse();
+  clip-path: ellipse();
+  background: linear-gradient(to top left, var(--pearl), var(--purple));
+}
+.circle-shape img{
+  max-width: 125px;
 }
 #contact{
   color: var(--pearl);
@@ -92,14 +127,8 @@ main{
 textarea{
   max-height: 100px;
 }
-/* form .row:nth-of-type(2){
-  margin-top: -500px;
-} */
 #contact button{
   background: var(--orange);
-}
-#testimonial h3{
-  color: var(--purple);
 }
 #testimonial img{
   width: 100%;
@@ -127,8 +156,15 @@ footer{
   }
 }
 @media(max-width: 600px){
-  #web-design-card{
+  /* #web-design-card{
     background-position: center;
+  } */
+  .circle-shape{
+    height: 115px;
+    width: 100px;
+  }
+  .circle-shape img{
+    max-width: 75px;
   }
 }
 @media(min-width: 600px){
@@ -136,6 +172,12 @@ footer{
     text-align: center;
     padding: 50px 0;
     margin: 0;
+  }
+  #services{
+  padding-bottom: 15vh;
+  }
+  #services ul li:not(:last-child){
+    font-size: 3vw;
   }
   #contact{
     padding: 20vh 0 2.5vh 0;
