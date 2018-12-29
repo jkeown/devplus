@@ -104,7 +104,8 @@ h3{
   background: linear-gradient(to top left, var(--pearl), var(--purple));
 }
 .circle-shape img{
-  max-width: 125px;
+  transform: translateY(15%);
+  max-width: 150px;
 }
 #contact{
   color: var(--pearl);
@@ -191,6 +192,9 @@ footer{
   }
   #services ul li:not(:last-child){
     font-size: 3vw;
+  }
+  .circle-shape img{
+    transform: translateY(-10%);
   }
   #contact{
     padding: 20vh 0 2.5vh 0;
