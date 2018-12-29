@@ -139,11 +139,15 @@ textarea{
 }
 .testimony{
   background: radial-gradient(var(--lighter-purple), transparent 30%);
-  margin-top: -50px;
+  margin-top: -40px;
 }
 blockquote{
   border-color: var(--lighter-blue);
   font-style: italic;
+}
+blockquote span{
+  font-style: initial;
+  /* margin-left: 20px; */
 }
 footer{
   color: var(--pearl);

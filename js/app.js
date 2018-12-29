@@ -16,4 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
   M.ScrollSpy.init(elems,{});
 });
 
-  // TRY USING DROPDOWN IN PLACE OF SIDENAV
+// Carousel
+// document.addEventListener('DOMContentLoaded', function() {
+//   let elems = document.querySelectorAll('.carousel');
+//   let instance = M.Carousel.init(elems, {
+//     duration: 500,
+//     fullWidth: true,
+//     indicators: true
+//   });
+// });
