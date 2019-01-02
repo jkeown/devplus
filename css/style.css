@@ -67,7 +67,7 @@ h3{
 }
 #services{
   color: var(--pearl);
-  background: url(../img/services-bg.svg);
+  background: url(../img/services-bg-min.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -101,7 +101,7 @@ h3{
   shape-outside: ellipse();
   clip-path: ellipse();
   -webkit-clip-path: ellipse();
-  background: linear-gradient(to top left, var(--pearl), var(--purple));
+  background: linear-gradient(to top left, transparent, var(--purple));
 }
 .circle-shape img{
   transform: translateY(15%);
@@ -109,7 +109,7 @@ h3{
 }
 #contact{
   color: var(--pearl);
-  background: url(../img/contact-bg.svg);
+  background: url(../img/contact-bg-min.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15vh 0 2.5vh 0;
@@ -135,12 +135,8 @@ textarea{
 #testimonial img{
   width: 100%;
 }
-.mirror-effect{
-  transform: scale(-1, 1) !important;
-}
-.testimony{
-  background: radial-gradient(var(--lighter-purple), transparent 30%);
-  margin-top: -40px;
+.testimony:hover{
+  background: radial-gradient(var(--lighter-purple), transparent 50%);
 }
 blockquote{
   border-color: var(--lighter-blue);
@@ -148,7 +144,9 @@ blockquote{
 }
 blockquote span{
   font-style: initial;
-  /* margin-left: 20px; */
+}
+#prestige-logo{
+  max-width: 65%;
 }
 footer{
   color: var(--pearl);
