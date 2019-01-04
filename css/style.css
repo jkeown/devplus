@@ -86,7 +86,7 @@ h3{
 #services ul li:not(:last-child){
   color: var(--purple);
   font-size: 7vw;
-  text-shadow: 1px 1px var(--pearl);  
+  text-shadow: 0.5px 0.5px var(--pearl);  
 }
 #services a{
   background: var(--orange);
