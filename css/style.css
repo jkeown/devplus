@@ -102,11 +102,13 @@ h3{
   shape-outside: ellipse();
   clip-path: ellipse();
   -webkit-clip-path: ellipse();
-  background: linear-gradient(to top left, transparent, var(--purple));
+  background: linear-gradient(to top, var(--pearl), var(--purple));
+  /* border-top: 1.5px solid var(--purple); */
+  /* border-radius: 50%; */
 }
 .circle-shape img{
-  transform: translateY(15%);
-  max-width: 150px;
+  /* border-radius: 50%; */
+  max-width: 135px;
 }
 #contact{
   color: var(--pearl);
@@ -193,7 +195,7 @@ footer{
     font-size: 3vw;
   }
   .circle-shape img{
-    transform: translateY(-10%);
+    transform: translateY(-15%);
   }
   #contact{
     padding: 20vh 0 2.5vh 0;
