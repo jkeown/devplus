@@ -1,4 +1,8 @@
-
+@keyframes swingIn{  
+  100% {
+    transform: rotateX(0) translateY(0);
+  }
+}
 :root{
   --white: #fffefc;
   --pearl: #fbfcf7;
@@ -53,6 +57,21 @@ h3{
 #intro span{
   color: var(--blue);
   text-shadow: 1.5px 1.5px #000;
+  display: inline-block;
+}
+#span1{
+  transform: rotateX(-90deg) translateY(100px);
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: swingIn;
+}
+#span2{
+  transform: rotateX(-90deg) translateY(-100px);
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: swingIn;
 }
 .border-top, .border-bottom{
   height: 20px;
