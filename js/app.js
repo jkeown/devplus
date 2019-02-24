@@ -16,12 +16,5 @@ document.addEventListener('DOMContentLoaded', function() {
   M.ScrollSpy.init(elems,{});
 });
 
-// Carousel
-// document.addEventListener('DOMContentLoaded', function() {
-//   let elems = document.querySelectorAll('.carousel');
-//   let instance = M.Carousel.init(elems, {
-//     duration: 500,
-//     fullWidth: true,
-//     indicators: true
-//   });
-// });
+// set copyright current year
+document.getElementById('currentYear').textContent = new Date().getFullYear();
