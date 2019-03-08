@@ -20,6 +20,16 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <style id="antiClickjack">body{display:none !important}</style>
+  <script type='text/javascript'>
+    if (self === top){
+      let antiClickjack = document.getElementById('antiClickjack');
+      antiClickjack.parentNode.removeChild(antiClickjack);
+    }
+    else{
+      top.location = self.location;
+    }
+  </script>
 </head>
 
 <body>
