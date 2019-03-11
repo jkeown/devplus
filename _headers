@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: frame-ancestors 'none'; default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; base-uri 'none'; form-action 'self';
+  Content-Security-Policy: frame-ancestors 'none'; default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; base-uri 'none'; form-action 'self';
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
