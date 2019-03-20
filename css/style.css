@@ -102,16 +102,7 @@ clip-path: circle(30% at 50% 50%);
 #services ul li:not(:last-child){
   color: var(--pearl);
   font-size: 7vw;
-  text-shadow: 1.5px 1.5px var(--purple);
-  margin-bottom: 20px;
-  opacity: 0;
-  transform: scaleX(0);
-  transform-origin: left; 
-  transition: all 0.5s ease;
-}
-#services ul li:not(:last-child).scale-up{
-  opacity: 1;      
-  transform: scale(1);
+  text-shadow: 1.5px 1.5px var(--purple);  
 }
 #services a{
   background: var(--orange);
