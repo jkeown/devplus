@@ -1,9 +1,0 @@
-Content-Security-Policy: 
-
-default-src 'none';
-
-form-action 'self';
-
-style-src 'self'; 
-
-font-src 'self';
