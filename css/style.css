@@ -98,7 +98,9 @@ fill: var(--blue);
 #services ul{
   text-align: center;
   background-image: url(../img/pluses.svg);
-  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 #services ul li:not(:last-child){
   color: var(--pearl);
