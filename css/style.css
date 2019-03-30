@@ -103,7 +103,7 @@ fill: var(--blue);
 #services ul li:not(:last-child){
   color: var(--pearl);
   font-size: 7vw;
-  text-shadow: 1px 1px var(--orange);  
+  text-shadow: 1.5px 1.5px 5px var(--purple);  
 }
 #services a{
   background: var(--orange);
