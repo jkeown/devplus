@@ -4,14 +4,10 @@
   }
 }
 :root{
-  --white: #fffefc;
   --pearl: #fbfcf7;
   --purple: #800080;
-  --lighter-purple: #8e3cfc;
   --blue: #0000ff;
-  --lighter-blue: #4949fc;
   --orange: #ffbf00;
-  --yellow: #ffe800;
 }
 *{
   margin: 0;
@@ -47,9 +43,6 @@ flex: 1;
   color: var(--orange);
   font-size: 1.5rem;
 }
-section{
-min-height: 50vh;
-}
 .scroll-color{
   background: #fff;
 }
@@ -58,8 +51,6 @@ position: relative;
 }
 #intro h1{
   color: var(--purple);
-  /* margin-left: 12px; */
-  /* padding: 0 25px; */
 }
 #intro span{
   color: var(--blue);
