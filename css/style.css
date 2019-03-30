@@ -180,7 +180,7 @@ footer{
 /* Media queries */
 @media(max-width: 600px){
   #intro h1{
-    font-size: 4rem;
+    font-size: 3.9rem;
   }
   .circle-shape{
     height: 115px;
