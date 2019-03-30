@@ -87,6 +87,7 @@ fill: var(--blue);
 }
 #services h3{
   color: inherit;
+  padding-top: 25px;
 }
 #services h5{
   color: var(--orange);
@@ -102,7 +103,7 @@ fill: var(--blue);
 #services ul li:not(:last-child){
   color: var(--pearl);
   font-size: 7vw;
-  text-shadow: 1.5px 1.5px var(--purple);  
+  text-shadow: 1px 1px var(--orange);  
 }
 #services a{
   background: var(--orange);
