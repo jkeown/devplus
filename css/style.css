@@ -51,6 +51,7 @@ position: relative;
 }
 #intro h1{
   color: var(--purple);
+  padding-bottom: 50px;
 }
 #intro span{
   color: var(--blue);
@@ -179,7 +180,7 @@ footer{
 /* Media queries */
 @media(max-width: 600px){
   #intro h1{
-    padding-bottom: 50px;
+    font-size: 3.5rem;
   }
   .circle-shape{
     height: 115px;
