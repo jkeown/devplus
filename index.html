@@ -15,7 +15,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Website Development - Dev Plus</title>
+  <title>Website development - Dev Plus</title>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css">
@@ -24,7 +24,7 @@
 
 <body>
   <header class="navbar-fixed">
-    <nav>
+    <nav class="transparent z-depth-0">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo"><img id="logo" src="img/devpluslinemin.svg" alt="devplus logo" srcset=""></a>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
@@ -44,19 +44,26 @@
     </ul>
   </header>
   <main>
-    <div class="container">
-      <section id="intro" class="section row scrollspy">
-        <div class="col">
-          <h1 class="">Crafting <span id="span1">quality</span> <span id="span2">websites</span> for the small
-            business.</h1>
-        </div>
-      </section>
-    </div>
+    <section id="intro" class="scrollspy">
+      <div class="container">
+        <article class="row">
+          <div class="col">
+            <h1 class="center-align">Crafting <span id="span1">quality</span> <span id="span2">websites</span> for the small
+              business.</h1>
+          </div>
+        </article>
+      </div>
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399.52 79.375">
+        <path d="M0 58.208L198.438 76.73 399.52 58.21v21.166H0z" /></svg>
+    </section>
+
     <section id="services" class="scrollspy">
-      <div class="container inner">
+      <div class="container">
         <div class="row section flow-text">
           <div class="header-bg">
-          <h3 class="center-align">Services</h3>
+            <h3 class="center-align">Services</h3>
           </div>
           <div class="col">
             <h5>Responsive Web Design</h5>
@@ -95,15 +102,16 @@
             <div class="circle-shape">
               <img src="img/me.jpg" class="circle">
             </div>
-            <p>I am concerned with more than just crafting a beautiful website. I design websites that focus on getting results for the business while meeting the needs of the website users.</p> 
-            
+            <p>I am concerned with more than just crafting a beautiful website. I design websites that focus on getting
+              results for the business while meeting the needs of the website users.</p>
+
             <p>As I've
               learned web development and spoken with small business owners, I've realized that a lot of small
               businesses
               are paying more for services they really do not need. My mission is to <mark>accurately assess your
                 business needs</mark> and not upsell you on unnecessary extras.
             </p>
-               
+
             <p>Whether you are looking to improve an existing website or are creating one from scratch, no project is
               too
               small for me. I am here for you when you are ready to discuss your business goals.</p><br>
@@ -112,9 +120,9 @@
         </div>
       </div>
     </section>
-    </div>
+
     <section id="contact" class="scrollspy">
-      <div class="container inner">
+      <div class="container">
         <div class="row">
           <p class="flow-text center-align">Please submit the following information to get started:</p>
         </div>
@@ -163,10 +171,11 @@
         </div>
       </div>
     </section>
+
     <section id="testimonial" class="container section">
       <div class="row">
         <div class="">
-          <h3 class="center-align">Kind words said about me</h3>
+          <h3 class="center-align">Kind words said about me:</h3>
         </div>
       </div>
 
@@ -183,8 +192,8 @@
       </div>
       <div class="row">
         <div class="col s6 offset-s3 m3 offset-m4 testimony prestige center-align">
-          <a href="https://www.prestigephotoboothlab.com/" target="_blank"><img id="prestige-logo" src="img/prestige-logo-min.svg"
-              alt="prestigephotoboothlab logo"></a>
+          <a href="https://www.prestigephotoboothlab.com/" target="_blank"><img id="prestige-logo"
+              src="img/prestige-logo-min.svg" alt="prestigephotoboothlab logo"></a>
         </div>
       </div>
 
@@ -206,7 +215,7 @@
     </section>
   </main>
   <footer class="section">
-    <section id="info" class="container">
+    <article id="info" class="container">
       <div class="row center-align">
         <div class="col s12 m6 icon">
           <a href="tel:1-442-222-8957">
@@ -221,13 +230,13 @@
           <p>jkeownwebdev@gmail.com</p>
         </div>
       </div>
-    </section>
-    <section id="copyright" class="center-align">
+    </article>
+    <article id="copyright" class="center-align">
       <p>&copy2018-<span id='currentYear'></span> Devplus
         <i class="material-icons">beach_access</i>Vista CA
       </p>
       <p>All Rights Reserved</p>
-    </section>
+    </article>
   </footer>
   <script src="js/materialize.min.js"></script>
   <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>

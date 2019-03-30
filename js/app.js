@@ -16,5 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
   M.ScrollSpy.init(elems,{});
 });
 
+// nav scroll color change
+window.onscroll = () => {
+  const nav = document.querySelector('nav');
+  if(this.scrollY <= 10) nav.className = 'transparent z-depth-0'; else nav.className = 'scroll-color';
+};
+
 // set copyright current year
 document.getElementById('currentYear').textContent = new Date().getFullYear();
