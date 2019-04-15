@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // nav scroll color change
 window.onscroll = () => {
   const nav = document.querySelector('nav');
-  if(this.scrollY <= 10) nav.className = 'transparent z-depth-0'; else nav.className = 'scroll-color';
+  if(this.scrollY <= 10) nav.classList.remove('scroll-color');
+  else nav.className = 'scroll-color';
 };
 
 // set copyright current year
