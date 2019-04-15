@@ -23,7 +23,7 @@ min-height: 100vh;
 overflow-x: hidden;
 }
 nav{
-  background-color: #0db5ff14 !important;
+  background-color: #0db5ff14;
 }
 h3{
   color: var(--orange);
