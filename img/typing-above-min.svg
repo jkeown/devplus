@@ -5,6 +5,7 @@
       opacity: 0;
       animation: opacity 3s linear forwards;
       animation-delay: 3s;
+      font-family="MV Boli" !important;
     }
     #keyboard {
       opacity: 0;

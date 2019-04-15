@@ -47,7 +47,7 @@ flex: 1;
   font-size: 1.5rem;
 }
 .scroll-color{
-  background: #fff;
+  background: var(--blue);
 }
 #intro{
   min-height: 55vh;
@@ -187,6 +187,11 @@ footer{
 }
 
 /* Media queries */
+@media (max-height: 360px){
+  #intro{
+    min-height: 80vh;
+  }
+}
 @media(max-width: 600px){
   #intro h1{
     font-size: 3.8rem;
