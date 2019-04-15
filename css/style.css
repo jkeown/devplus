@@ -189,7 +189,7 @@ footer{
 /* Media queries */
 @media (max-height: 360px){
   #intro{
-    min-height: 80vh;
+    min-height: 85vh;
   }
 }
 @media(max-width: 600px){
