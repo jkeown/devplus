@@ -5,7 +5,8 @@
 }
 :root{
   --pearl: #fbfcf7;
-  --purple: #6a5181;
+  --purple-dark: #6a5181;
+  --purple: #800080;
   --blue: #0c6ae8;
   --blue-light: #0c6be8e6;
   --orange: #ffbf00;
@@ -72,7 +73,7 @@ flex: 1;
 #services ul li:not(:last-child){
   color: var(--pearl);
   font-size: 7vw;
-  text-shadow: 1.5px 1.5px 5px var(--purple);  
+  text-shadow: 1.5px 1.5px 5px var(--purple-dark);  
 }
 #services a{
   background: var(--orange);
@@ -88,7 +89,7 @@ flex: 1;
   shape-outside: ellipse();
   clip-path: ellipse();
   -webkit-clip-path: ellipse();
-  background: linear-gradient(to top, var(--pearl), var(--purple));
+  background: linear-gradient(to top, var(--pearl), var(--purple-dark));
 }
 .circle-shape img{
   max-width: 135px;
