@@ -5,9 +5,11 @@
 }
 :root{
   --pearl: #fbfcf7;
-  --purple: #800080;
-  --blue: #0000ff;
+  --purple: #6a5181;
+  --blue: #0c6ae8;
+  --blue-light: #0c6be8e6;
   --orange: #ffbf00;
+  --grey-light: #a2c0cb80;
 }
 *{
   margin: 0;
@@ -26,7 +28,7 @@ nav{
   background-color: #0db5ff14;
 }
 h3{
-  color: var(--orange);
+  color: var(--purple);
 }
 main{
 flex: 1;
@@ -37,7 +39,7 @@ flex: 1;
 #logo{
   max-height: 100px;
   max-width: 100px;
-  padding: 10px;
+  padding: 0 0 0 10px;
 }
 .sidenav{
   z-index: 10000 !important;
@@ -47,7 +49,7 @@ flex: 1;
   font-size: 1.5rem;
 }
 .scroll-color{
-  background: var(--blue);
+  background: var(--blue-light);
 }
 #intro{
   min-height: 55vh;
@@ -55,58 +57,17 @@ flex: 1;
   background-position: center;
   background-size: cover;
 }
-#intro h1{
-  color: var(--purple);
-  padding-bottom: 50px;
-}
-#intro span{
-  color: var(--blue);
-  text-shadow: 1.5px 1.5px #000;
-  display: inline-block;
-  text-transform: uppercase;
-}
-#span1{
-  transform: rotateX(180deg) translateY(-75px) scale(0);
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-name: swingIn;
-}
-#span2{
-  transform: rotateX(-180deg) translateY(75px) scale(0);
-  animation-fill-mode: forwards;
-  animation-delay: .5s;
-  animation-duration: 2s;
-  animation-name: swingIn;
-}
-#intro .row{
-  margin: 0;
-}
-#intro svg{
-width: 100%;
-position: absolute;
-bottom: 0;
-fill: var(--blue);  
-}
-#services{
-  color: var(--pearl);
-  background-color: var(--blue);
-}
-#services h3{
-  color: inherit;
-  padding-top: 25px;
-}
 #services h5{
   color: var(--orange);
 }
-#services p, ul{
+#services p{
   padding-bottom: 20px;
 }
 #services ul{
   text-align: center;
-  background-image: url(../img/pluses.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: var(--grey-light);
+  border-radius: 10px;
+  padding: 20px;
 }
 #services ul li:not(:last-child){
   color: var(--pearl);
@@ -152,6 +113,27 @@ fill: var(--blue);
 textarea{
   max-height: 100px;
 }
+/* label focus color */
+#contact form .input-field input:focus + label {
+  color: var(--orange);
+}
+/* label underline focus color */
+#contact form .input-field input:focus {
+  border-bottom: 1px solid var(--orange);
+  box-shadow: 0 1px 0 0 #000;
+}
+#contact form .input-field textarea:focus + label {
+  color: var(--orange);
+}
+/* label underline focus color */
+#contact form .input-field textarea:focus {
+  border-bottom: 1px solid var(--orange);
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: var(--orange);
+}
 #contact button{
   background: var(--orange);
 }
@@ -193,9 +175,6 @@ footer{
   }
 }
 @media(max-width: 600px){
-  #intro h1{
-    font-size: 3.8rem;
-  }
   .circle-shape{
     height: 115px;
     width: 100px;
