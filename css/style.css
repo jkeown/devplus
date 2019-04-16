@@ -52,7 +52,7 @@ flex: 1;
 #intro{
   min-height: 85vh;
   background: url(../img/typing-pool-min.svg) no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: contain;
 }
 #services h5{
