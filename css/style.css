@@ -25,9 +25,6 @@ flex-direction: column;
 min-height: 100vh;
 overflow-x: hidden;
 }
-nav{
-  background-color: #0db5ff14;
-}
 h3{
   color: var(--purple);
 }
@@ -53,10 +50,10 @@ flex: 1;
   background: var(--blue-light);
 }
 #intro{
-  min-height: 55vh;
-  background: url(../img/typing-above-min.svg) no-repeat;
+  min-height: 85vh;
+  background: url(../img/typing-pool-min.svg) no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 #services h5{
   color: var(--orange);
@@ -172,7 +169,7 @@ footer{
 /* Media queries */
 @media (max-height: 360px){
   #intro{
-    min-height: 85vh;
+    min-height: 80vh;
   }
 }
 @media(max-width: 600px){
@@ -200,8 +197,4 @@ footer{
     font-size: 3vw !important;
   }
 }
-@media(min-width: 800px){
-  #intro{
-    min-height: 100vh;
-  }
-}
+
