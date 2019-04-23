@@ -51,8 +51,8 @@ flex: 1;
 }
 #intro{
   min-height: 85vh;
-  background: url(../img/typing-pool-min.svg) no-repeat;
-  background-position: top;
+  background: url(../img/typing-clouds-min.svg) no-repeat;
+  background-position: center;
   background-size: contain;
 }
 #services h5{
