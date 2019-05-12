@@ -222,6 +222,9 @@ footer {
 @media (max-height: 360px) {
     #intro {
         min-height: 80vh;
+        background: url(../img/typing_above_circles_min.svg) no-repeat;
+        background-position: center;
+        background-size: contain;
     }
 }
 
