@@ -1,6 +1,6 @@
-@keyframes swingIn {
-    100% {
-        transform: rotateX(0) translateY(0) scale(1);
+@keyframes opacity {
+    to {
+        opacity: 1;
     }
 }
 
@@ -42,7 +42,7 @@ main {
 }
 
 #logo {
-    max-height: 100px;
+    /* max-height: 100px; */
     max-width: 100px;
     padding: 0 0 0 10px;
 }
@@ -63,10 +63,27 @@ header ul li a {
 }
 
 #intro {
-    min-height: 85vh;
-    background: url(../img/typing_above_mobile_min.svg) no-repeat;
-    background-position: center;
+    min-height: 100vh;
+    background: url(../img/kk-bg-min.svg) no-repeat;
+    background-position: bottom;
     background-size: contain;
+}
+
+#intro h1 {
+    position: relative;
+    margin: 0 auto;
+    width: 95vw;
+    background: linear-gradient(var(--purple), var(--blue));
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0;
+    animation: opacity 1s linear forwards;
+    animation-delay: 3s;
+}
+
+#intro span {
+    font-size: 3.1rem;
+    color: var(--blue-light);
 }
 
 #services h5 {
@@ -220,12 +237,12 @@ footer {
 /* Media queries */
 
 @media (max-height: 360px) {
-    #intro {
+    /* #intro {
         min-height: 80vh;
         background: url(../img/typing_above_circles_min.svg) no-repeat;
         background-position: bottom;
         background-size: contain;
-    }
+    } */
 }
 
 @media(max-width: 600px) {
@@ -239,11 +256,6 @@ footer {
 }
 
 @media(min-width: 600px) {
-    #intro {
-        background: url(../img/typing_above_circles_min.svg) no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
     img {
         text-align: center;
         padding: 50px 0;
@@ -257,5 +269,11 @@ footer {
     }
     .icon i {
         font-size: 3vw !important;
+    }
+}
+
+@media(min-width: 600px) {
+    #intro {
+        background-position: right;
     }
 }
