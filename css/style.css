@@ -64,15 +64,12 @@ header ul li a {
 
 #intro {
     min-height: 100vh;
-    background: url(../img/kk-bg-min.svg) no-repeat;
-    background-position: bottom;
+    background: url(../img/bg-min.svg) no-repeat;
+    background-position: center;
     background-size: contain;
 }
 
 #intro h1 {
-    position: relative;
-    margin: 0 auto;
-    width: 95vw;
     background: linear-gradient(var(--purple), var(--blue));
     -webkit-background-clip: text;
     color: transparent;
