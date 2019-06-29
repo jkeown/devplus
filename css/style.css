@@ -51,11 +51,15 @@ main {
     z-index: 10000 !important;
 }
 
-.sidenav-trigger,
 #nav-mobile a,
 header ul li a {
-    color: var(--orange);
+    color: var(--purple);
     font-size: 1.5rem;
+}
+
+.sidenav-trigger,
+.active-link {
+    color: var(--orange) !important;
 }
 
 .scroll-color {
